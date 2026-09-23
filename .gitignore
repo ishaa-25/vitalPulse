@@ -1,8 +1,6 @@
-Set-Content -Path .gitignore -Value @"
 venv/
 .env
 __pycache__/
 *.pyc
 src/data/processed/*
 !src/data/processed/.gitkeep
-"@
