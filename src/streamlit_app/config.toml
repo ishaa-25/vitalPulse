@@ -1,0 +1,10 @@
+New-Item -ItemType Directory -Force -Path ".streamlit" | Out-Null
+Set-Content -Path ".streamlit/config.toml" -Value @"
+[theme]
+base = "dark"
+primaryColor = "#FF4B2B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#FAFAFA"
+font = "sans serif"
+"@
